@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    src: url(./../fonts/Roboto-Black.ttf);
+    font-family: Roboto-Bold;
+}
+@font-face {
+    src: url(./../fonts/Roboto-Regular.ttf);
+    font-family: Roboto;
+}
+@font-face {
+    src: url(./../fonts/Roboto-Thin.ttf);
+    font-family: Roboto-Light;
+}
+
+body{
+    min-width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto-Light;
+}
+
+.roboto{
+    font-family: Roboto;
+}
+.roboto-light{
+    font-family: Roboto-Light;
+}
+.roboto-bold{
+    font-family: Roboto-Bold;
+}
+
+.main{
+    height: auto;
+    max-width: 1200px;
+    width: auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.p-10{
+    padding: 10px 10px;
+}
+
+.p-h-10{
+    padding-left: 10px;
+    padding-right:  10px;
+}
+
+.p-v-5{
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.p-v-10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.p-v-25{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.m-v-5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.m-v-15{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.m-l-10{
+    margin-left: 10px;
+}
+
+.m-r-10{
+    margin-right: 10px;
+}
+
+.m-t-20{
+    margin-top: 20px;
+}
+
+.hovered{
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.header-element{
+    min-width: 75px;
+}
+
+.hovered:hover{
+    transform: scale(1.2);
+    border-color: black;
+    font-family: Roboto-Bold;
+}
+
+.one-third{
+    width: 33%;
+}
+
+.two-thirds{
+    width: 67%;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.option-box{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 175px;
+    text-align: center;
+}
+
+.centralizer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.line-container{
+    width: 80%;
+}
+
+.line-chart-button{
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    font-family: Roboto;
+    font-size: 10px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.button-selected{
+    border-color: black;
+    transform: scale(1.2);
+    font-family: Roboto-Bold;
+    pointer-events: none;
+}
+
+.active{
+    pointer-events: none;
+    font-family: Roboto-Bold;
+    border-color: black;
+}
+
+
+.back-grey{
+    background-color: lightgray;
+}
+
+.back-black{
+    background-color: #001c54;
+}
+
+.back-line{
+    background-color: #fafafa;
+}
+
+.back-area{
+    background-color: #fffee0;
+}
+
+.back-bar{
+    background-color: #ddffbc;
+}
+
+
+.color-white{
+    color: white;
+}
+
+.color-green{
+    color: green;
+}
+
+.color-red{
+    color: red;
+}
+
